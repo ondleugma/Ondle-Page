@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Ojuju&display=swap');
+
+body {
+    font-family: Ojuju, serif;
+    background: linear-gradient(7deg, #080303 29%, #8d7c25 100%);
+    font-size: 23px;
+}
+
+p {
+    color: gold;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: gold;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: gold;
+}
+
+.sidebar {
+    color: gold;
+    background: linear-gradient(7deg, #080303 29%, #8d7c25 100%);
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: gold;
+}
+
+.card {
+    background: linear-gradient(187deg, #080303 29%, #8d7c25 100%);
+    color: gold;
+}
+
+.card a {
+    text-decoration: none;
+    color: gold;;
+}
+
+.slide-text,
+.footer-text {
+    color: gold;
+    margin: auto auto;
+}
+
+footer,
+.btn-warning {
+    background: linear-gradient(197deg, #080303 29%, #8d7c25 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    animation: myAnimPhone 2s ease 0s infinite reverse forwards;
+}
+
+@keyframes myAnimPhone {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 775px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
